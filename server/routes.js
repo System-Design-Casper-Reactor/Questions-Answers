@@ -14,4 +14,6 @@ router.put('/qa/questions/:question_id/report', controllers.reportQuestion);
 router.put('/qa/answers/:answer_id/helpful', controllers.helpAnswer);
 router.put('/qa/answers/:answer_id/report', controllers.reportAnswer);
 
+router.get('/loaderio-1a366c60ec976061ee347d19846ec311/', (req, res)=>res.send('loaderio-1a366c60ec976061ee347d19846ec311'));
+router.get('/test', (req, res)=>res.sendStatus(404));
 module.exports = router;
